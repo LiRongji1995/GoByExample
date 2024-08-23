@@ -19,7 +19,7 @@ func main() {
 	b = [...]int{1, 2, 3, 4, 5}
 	fmt.Println("dcl:", b)
 
-	b = [...]int{100, 3: 400, 500}
+	b = [...]int{100, 3: 400, 500} //蛮有意思的
 	fmt.Println("idx:", b)
 
 	var twoD [2][3]int
